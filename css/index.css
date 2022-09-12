@@ -1,0 +1,69 @@
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  opacity: 70%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.audioArea {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: lavenderblush;
+}
+
+audio{
+  border-width: 1px;
+  border-style: solid;
+}
+
+.words {
+  margin: 30px;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lavenderblush;
+}
+
+.back-video{
+  position:absolute;
+  right: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(0,0,0,0);
+
+
+}
+@media  (min-aspect-ratio:16/9) {
+  .back-video{
+    width: 100%;
+    height:auto;
+  }
+}
+@media  (max-aspect-ratio:16/9) {
+  .back-video{
+    width: auto;
+    height:100%;
+  }
+}

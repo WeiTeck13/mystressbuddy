@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Counselling</title>
+</head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/counselling.css">
+
+<body>
+
+    <header>
+        <div class="w3-bar w3-light-grey">
+            <a class="w3-bar-item"><b>My Stress Buddy</b></a>
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="counselling.html" class="w3-bar-item w3-button w3-text-teal">Counselling</a>
+            <a href="selfHelp.html" class="w3-bar-item w3-button">Self-help</a>
+            <a href="shoutOutYourStress.html" class="w3-bar-item w3-button">Shout out your stress</a>
+            <a href="article.html" class="w3-bar-item w3-button">Article</a>
+        </div>
+    </header>
+
+    <div class="words">
+
+        <h1>Counselling</h1>
+        <p>If you need help please feel free to contact our counsellor. Please fill in the form below to arrange for
+            counselling session, and our counsellor will contact you.</p>
+
+    </div>
+
+    <div class="formArea">
+
+        <form action="/action_page.php">
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname"><b>Name:</b></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="fname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname"><b>Phone:</b></label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="fphone" name="fphone">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname"><b>Email:</b></label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="femail" name="femail">
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="inputShout"><b>Your message:</b></label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="w3review" name="inputShout" rows="4" cols="50"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+            <button onclick="submitFunction()" class="button">Submit</button>
+        </form>
+
+        <p>If you had booked an online counselling session, please click the button below to join the online meeting. Else, use the other meeting platform as you arranged with the counsellor.
+        </p>
+        <a href="./meeting.html"><button class="button">Join Meeting</button></a>
+
+    </div>
+
+    <div class="words">
+
+    <h1>Community resource and helpline</h1>
+
+    <table class="w3-table w3-bordered">
+        <tr>
+          <th>Organisations</th>
+          <th>Country</th>
+          <th>Contact</th>
+        </tr>
+        <tr>
+          <td>Samaritans of Singapore (SOS)</td>
+          <td>Singapore</td>
+          <td>Tel: 1767 <br>Web: www.sos.org.sg</td>
+        </tr>
+        <tr>
+          <td>LifelineUkraine</td>
+          <td>Ukraine</td>
+          <td>Tel: 7333 <br>Web: www.lifelineukraine.com</td>
+        </tr>
+        <tr>
+          <td>988 Suicide & Crisis Lifeline</td>
+          <td>United States</td>
+          <td>Tel: 988 <br>Web: www.988lifeline.org</td>
+        </tr>
+        <tr>
+            <td>Befrienders</td>
+            <td>Malaysia</td>
+            <td>Tel: 03-76272929 <br>Web: www.befrienders.org.my</td>
+          </tr>
+      </table>
+
+</div>
+
+<br>
+
+    <footer>
+        <p>Created by Nuhsyah Putra and Tay Wei Teck.</p>
+    </footer>
+
+    <script>
+        function submitFunction() {
+            alert("Your application had submitted successfully. Thank you.");
+        }
+    </script>
+
+</body>
+
+</html>
